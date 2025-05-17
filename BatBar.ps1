@@ -1,7 +1,7 @@
 $ErrorActionPreference = 'SilentlyContinue'
 
-Add-Type -AssemblyName System.Windows.Forms -ErrorAction SilentlyContinue
-Add-Type -AssemblyName System.Drawing -ErrorAction SilentlyContinue
+Add-Type -AssemblyName System.Windows.Forms
+Add-Type -AssemblyName System.Drawing
 
 Add-Type -Name Window -Namespace Console -MemberDefinition '
 [DllImport("user32.dll")]
@@ -12,11 +12,16 @@ public static extern int SetWindowLong(IntPtr hWnd, int nIndex, int dwNewLong);
 
 [DllImport("user32.dll")]
 public static extern int GetWindowLong(IntPtr hWnd, int nIndex);
-' -ErrorAction SilentlyContinue
+
+[DllImport("user32.dll")]
+public static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);
+'
 
 $HWND_TOPMOST = New-Object -TypeName System.IntPtr -ArgumentList (-1)
 $SWP_NOMOVE = 0x0002
 $SWP_NOSIZE = 0x0001
+$WS_EX_TOOLWINDOW = 0x00000080
+$WS_EX_NOACTIVATE = 0x08000000
 $GWL_EXSTYLE = -20
 $screen = [System.Windows.Forms.Screen]::PrimaryScreen.Bounds
 $script:currentWidth = 1
@@ -32,12 +37,8 @@ $form.ShowInTaskbar = $false
 $form.BackColor = [System.Drawing.Color]::Black
 $form.TransparencyKey = [System.Drawing.Color]::Black
 $form.Opacity = 1
-$form.Text = "BatBar|"
-$form.ShowIcon = $true
-
-$form.Add_Load({
-    $form.Add_MouseEnter({ $this.Cursor = 'Default' })
-})
+$form.Text = "BatBar"
+$form.ShowIcon = $false 
 
 $batteryBar = New-Object System.Windows.Forms.Panel
 $batteryBar.Width = $script:currentWidth
@@ -51,7 +52,8 @@ $batteryBar.Add_MouseWheel({
 })
 
 $batteryBar.Add_MouseClick({
-    if ($_.Button -eq [System.Windows.Forms.MouseButtons]::Right -and [System.Windows.Forms.Control]::ModifierKeys -eq [System.Windows.Forms.Keys]::Shift) {
+    if ($_.Button -eq [System.Windows.Forms.MouseButtons]::Right -and 
+        [System.Windows.Forms.Control]::ModifierKeys -eq [System.Windows.Forms.Keys]::Shift) {
         $form.Close()
     }
 })
@@ -66,36 +68,26 @@ function Update-BatteryStatus {
         
         if ($isCharging) {
             $batteryBar.BackColor = [System.Drawing.Color]::DeepSkyBlue
-            $form.Text = "BatBar| ⚡ $percentage%"
+            $form.Text = "BatBar | ⚡ $percentage%"
         }
         else {
-            if ($percentage -le 20) {
-                $batteryBar.BackColor = [System.Drawing.Color]::Red
-            }
-            elseif ($percentage -le 45) {
-                $batteryBar.BackColor = [System.Drawing.Color]::Orange
-            }
-            elseif ($percentage -le 80) {
-                $batteryBar.BackColor = [System.Drawing.Color]::GreenYellow
-            }
-            else {
-                $batteryBar.BackColor = [System.Drawing.Color]::Green
+            $batteryBar.BackColor = switch ($percentage) {
+                {$_ -le 20} { [System.Drawing.Color]::Red }
+                {$_ -le 45} { [System.Drawing.Color]::Orange }
+                {$_ -le 80} { [System.Drawing.Color]::GreenYellow }
+                default { [System.Drawing.Color]::Green }
             }
         }
         
         $batteryBar.Height = $newHeight
         $centerY = ($screen.Height - $newHeight) / 2
         $batteryBar.Location = New-Object System.Drawing.Point(0, $centerY)
-        $form.Text = "BatBar| $percentage%"
-
+        $form.Text = "BatBar | $percentage%"
     }
 }
 
 function Update-BarWidth {
-    param (
-        [int]$newWidth
-    )
-    
+    param ([int]$newWidth)
     $script:currentWidth = [Math]::Max(1, [Math]::Min(10, $newWidth))
     $form.Width = $script:currentWidth
     $batteryBar.Width = $script:currentWidth
@@ -103,7 +95,7 @@ function Update-BarWidth {
 }
 
 $timer = New-Object System.Windows.Forms.Timer
-$timer.Interval = 10000 
+$timer.Interval = 5000 
 $timer.Add_Tick({ Update-BatteryStatus })
 $timer.Start()
 
@@ -113,15 +105,30 @@ $form.Add_MouseWheel({
 })
 
 $form.Add_MouseClick({
-    if ($_.Button -eq [System.Windows.Forms.MouseButtons]::Right -and [System.Windows.Forms.Control]::ModifierKeys -eq [System.Windows.Forms.Keys]::Shift) {
+    if ($_.Button -eq [System.Windows.Forms.MouseButtons]::Right -and 
+        [System.Windows.Forms.Control]::ModifierKeys -eq [System.Windows.Forms.Keys]::Shift) {
         $form.Close()
     }
 })
 
 $form.Add_Shown({
-    [Console.Window]::SetWindowPos($form.Handle, $HWND_TOPMOST, 0, 0, 0, 0, ($SWP_NOMOVE -bor $SWP_NOSIZE))
+    $style = [Console.Window]::GetWindowLong($form.Handle, $GWL_EXSTYLE)
+    $style = $style -bor $WS_EX_TOOLWINDOW -bor $WS_EX_NOACTIVATE
+    [Console.Window]::SetWindowLong($form.Handle, $GWL_EXSTYLE, $style)
+    [Console.Window]::SetWindowPos(
+        $form.Handle, 
+        $HWND_TOPMOST, 
+        0, 0, 0, 0, 
+        ($SWP_NOMOVE -bor $SWP_NOSIZE)
+    )
     $form.Activate()
 })
 
+$form.Add_FormClosing({
+    if ($timer) { $timer.Dispose() }
+    if ($batteryBar) { $batteryBar.Dispose() }
+})
+
+# Initial update and show form
 Update-BatteryStatus
 [void]$form.ShowDialog()

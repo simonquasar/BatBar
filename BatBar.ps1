@@ -63,26 +63,32 @@ function Update-BatteryStatus {
     if ($battery) {
         $percentage = $battery.EstimatedChargeRemaining
         $isCharging = $battery.BatteryStatus -eq 2
-        
+
         $newHeight = [Math]::Round(($screen.Height * $percentage) / 100)
-        
+
         if ($isCharging) {
             $batteryBar.BackColor = [System.Drawing.Color]::DeepSkyBlue
-            $form.Text = "BatBar | ⚡ $percentage%"
+            $form.Text = "BatBar ⚡ $percentage%"
         }
         else {
-            $batteryBar.BackColor = switch ($percentage) {
-                {$_ -le 20} { [System.Drawing.Color]::Red }
-                {$_ -le 45} { [System.Drawing.Color]::Orange }
-                {$_ -le 80} { [System.Drawing.Color]::GreenYellow }
-                default { [System.Drawing.Color]::Green }
+            if ($percentage -le 20) {
+                $batteryBar.BackColor = [System.Drawing.Color]::Red
             }
+            elseif ($percentage -le 45) {
+                $batteryBar.BackColor = [System.Drawing.Color]::Orange
+            }
+            elseif ($percentage -le 80) {
+                $batteryBar.BackColor = [System.Drawing.Color]::GreenYellow
+            }
+            else {
+                $batteryBar.BackColor = [System.Drawing.Color]::Green
+            }
+            $form.Text = "BatBar | $percentage%"
         }
-        
+
         $batteryBar.Height = $newHeight
         $centerY = ($screen.Height - $newHeight) / 2
         $batteryBar.Location = New-Object System.Drawing.Point(0, $centerY)
-        $form.Text = "BatBar | $percentage%"
     }
 }
 

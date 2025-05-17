@@ -1,43 +1,71 @@
-# Battery Bar
+# BatBar — Battery Status at a Glance
 
-A minimal, elegant battery indicator that sits on the edge of your screen. Shows battery level with a 1px-wide colored vertical bar.
+[![License: GPL v2](https://img.shields.io/badge/license-GPL--2.0-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
+![Platform: Windows](https://img.shields.io/badge/platform-Windows-blue)
 
+**BatBar** is an ultra-minimalist battery indicator for Windows. It displays a 1-pixel-wide colored line on the edge of your screen, giving you an immediate, unobtrusive view of your battery level. Always visible, never distracting.
 
-## Features
+---
 
-- **Minimal Design**: Ultra-thin vertical bar that sits on the right edge of your screen
-- **Color Indicators**:
-  - 🟢 Green (81-100%)
-  - 🟡 Yellow (46-80%)
-  - 🟠 Orange (21-45%)
-  - 🔴 Red (0-20%)
-  - 🔵 Blue (When charging)
-- **Charging Status**: Changes to blue with ⚡ icon when charging
-- **Adjustable Width**: Use mouse wheel to adjust bar width (1-10 pixels)
-- **Always on Top**: Stays visible above other windows
+## ✨ Features
 
-## Installation
+- 🔋 **Instant visual feedback**: a vertical colored bar shows your battery level in real time
+- 🎨 **Intuitive color coding**:
+  - 🟢 Green: 81–100%
+  - 🟡 Yellow: 46–80%
+  - 🟠 Orange: 21–45%
+  - 🔴 Red: 0–20%
+  - 🔵 Blue + ⚡: Charging
+- 🖱️ **Adjustable width**: scroll the mouse wheel over the bar (1–10 px)
+- 📌 **Always on top**: stays above all windows
+- 🧼 **Non-intrusive design**: minimalist and out of the way
 
-### Option 1: Standalone Executable 
-1. Download the latest release (`BatBar.exe`) from the [Releases](simonquasar/batbar/releases) page
+---
+
+## 🚀 How It Works
+
+The bar automatically appears on the right edge of your primary screen.
+
+- **Adjust width**: mouse wheel up/down over the bar
+- **Close the bar**: SHIFT + right-click on the bar
+
+---
+
+## 🔧 Installation
+
+### ✅ Option 1: Standalone Executable (recommended)
+1. Download the latest release (`BatBar.exe`) from the [Releases](https://github.com/simonquasar/batbar/releases) page
 2. Run the executable
-   - No installation needed
-   - No dependencies required
+   - No installation required
+   - No external dependencies
 
-### Option 2: PowerShell Script
+### ⚙️ Option 2: PowerShell Script
 1. Download `BatBar.ps1`
-2. Right-click the script and select "Run with PowerShell"
+2. Right-click the file and select “Run with PowerShell”
    - Requires PowerShell 5.1 or later
    - Windows 10/11 recommended
 
-## Usage
+---
 
-The bar is always positioned on the right edge of your primary screen
-- **Adjust Width**: Mouse wheel up/down
-- **Close**: SHIFT + Right-click the bar
+## 💻 System Requirements
 
-## System Requirements
+- Windows 10 or 11
+- PowerShell 5.1+ (only for the script version)
+- No special requirements for the executable
 
-- Windows 10/11 (not tested on earlier versions)
-- For script version: PowerShell 5.1 or later
-- For executable version: No special requirements
+---
+
+## 🧠 Why BatBar?
+
+Most battery indicators are cluttered, over-engineered, or get in your way. **BatBar** focuses on pure function with an aesthetic that’s nearly invisible — perfect for developers, creatives, and minimalists who want instant battery awareness without distractions.
+
+---
+
+## 📜 License
+
+This project is licensed under the **GNU General Public License v2.0**  
+See the full license text [here](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html).
+
+---
+
+> Designed for clarity and simplicity by [simonquasar](https://www.simonquasar.net)

@@ -36,8 +36,8 @@ The bar automatically appears on the right edge of your primary screen .
 
 This utility is designed to be extremely lightweight:
 
-- 📦 **Size**: Tiny 130KB compiled executable
-- 💾 **Memory**: ~20MB RAM usage
+- 📦 **Size**: Tiny 61KB compiled executable
+- 💾 **Memory**: <20MB RAM usage
 - 🔄 **CPU**: < 0.1% idle, 0.1-0.3% during updates (every 5s)
 - 🔋 **Battery Impact**: Negligible due to efficient polling
 - 🚀 **Startup**: Instant launch, no dependencies

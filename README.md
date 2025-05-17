@@ -2,6 +2,8 @@
 
 [![License: GPL v2](https://img.shields.io/badge/license-GPL--2.0-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
 ![Platform: Windows](https://img.shields.io/badge/platform-Windows-blue)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/simonquasar/BatBar)
+![GitHub Release](https://img.shields.io/github/v/release/simonquasar/BatBar)
 
 **BatBar** is an ultra-minimalist battery indicator for Windows. 
 It displays a 1-pixel-wide colored line on the edge of your screen, giving you an immediate, unobtrusive view of your battery level. 
@@ -12,15 +14,16 @@ _You can still increase its width if needed, but 1px is the sweet spot for invis
 
 **Ideal for streamers, designers, and screen recorders!**
 
+## 🔋The BatBar |
 
-## ✨ Features
-
-- 🔋 **Instant visual feedback**: the height of the bar shows your battery level
+- 👀 **Instant visual feedback**: the height of the bar shows your battery level
+- 🚦 **Intuitive color coding**: just standard green-orange-red & blue hints
 - 📸 **Screenshot-safe**: invisible in most screenshots and screen recordings
-- 🚦 **Intuitive color coding**: with standard green-orange-red & blue hints
 - 📌 **Always on top**: stays above all windows
-- 🖱️ **Adjustable width**: scroll the mouse wheel over the bar
+- 🖱️ **Adjustable width**: just scroll the mouse wheel over the bar
 - 🫥 **Non-intrusive design**: minimalist and out of the way
+
+<img src="https://github.com/simonquasar/BatBar/blob/main/BatBar_show.jpg" alt="BatBar Preview" height="500">
 
 ## 🚀 How It Works
 

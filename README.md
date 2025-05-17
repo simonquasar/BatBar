@@ -7,7 +7,10 @@
 It displays a 1-pixel-wide colored line on the edge of your screen, giving you an immediate, unobtrusive view of your battery level. 
 Always visible, never distracting.
 
-🖼️ **“Screenshot-safe"**: Ideal for streamers, designers, and screen recorders!
+🖼️ **“Screenshot-safe"**: Thanks to its ultra-thin 1-pixel width, BatBar sits on the extreme edge of your screen — typically outside the active capture area used by most print screens.  
+_You can still increase its width if needed, but 1px is the sweet spot for invisibility!_
+
+**Ideal for streamers, designers, and screen recorders!**
 
 
 ## ✨ Features
@@ -18,15 +21,6 @@ Always visible, never distracting.
 - 📌 **Always on top**: stays above all windows
 - 🖱️ **Adjustable width**: scroll the mouse wheel over the bar
 - 🫥 **Non-intrusive design**: minimalist and out of the way
-
-## 🖼️ Why “Screenshot-safe”?
-
-Thanks to its ultra-thin 1-pixel width, BatBar sits on the extreme edge of your screen — typically outside the active capture area used by the Windows Snipping Tool and Print Screen function.  
-This means:
-- **You won't see it in screenshots**
-- **You won’t have to hide it when presenting or sharing your screen**
-
-> You can still increase its width if needed, but 1px is the sweet spot for invisibility!
 
 ## 🚀 How It Works
 

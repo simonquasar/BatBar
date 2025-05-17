@@ -23,7 +23,7 @@ _You can still increase its width if needed, but 1px is the sweet spot for invis
 - 🖱️ **Adjustable width**: just scroll the mouse wheel over the bar
 - 🫥 **Non-intrusive design**: minimalist and out of the way
 
-<img src="https://github.com/simonquasar/BatBar/blob/main/BatBar_show.jpg" alt="BatBar Preview" height="500">
+<img src="https://github.com/simonquasar/BatBar/blob/main/batbar_preview.jpg" alt="BatBar Preview">
 
 ## 🚀 How It Works
 

@@ -1,4 +1,4 @@
-# BatBar — Battery Status at a Glance
+# BatBar | Battery Status at a Glance
 
 [![License: GPL v2](https://img.shields.io/badge/license-GPL--2.0-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
 ![Platform: Windows](https://img.shields.io/badge/platform-Windows-blue)

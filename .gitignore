@@ -1,2 +1,7 @@
+build/
 ico/
 *.bak
+*.svg
+*.spec
+python/
+*test/

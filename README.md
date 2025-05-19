@@ -1,74 +1,84 @@
-# BatBar | Battery Status at a Glance
+# BatBar | Battery Bar
 
 [![License: GPL v2](https://img.shields.io/badge/license-GPL--2.0-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
 ![Platform: Windows](https://img.shields.io/badge/platform-Windows-blue)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/simonquasar/BatBar)
+![Platform: Linux](https://img.shields.io/badge/platform-Linux%2FUbuntu-yellowgreen)
 ![GitHub Release](https://img.shields.io/github/v/release/simonquasar/BatBar)
 
-**BatBar** is an ultra-minimalist battery indicator for Windows. 
-It displays a 1-pixel-wide colored line on the edge of your screen, giving you an immediate, unobtrusive view of your battery level. 
+**BatBar** is an ultra-minimalist battery indicator for Windows and Linux. 
+It displays a **1-pixel-wide** colored line on the edge of your screen, giving you an immediate, unobtrusive view of your battery level. 
 Always visible, never distracting.
 
-🖼️ **“Screenshot-safe"**: Thanks to its ultra-thin 1-pixel width, BatBar sits on the extreme edge of your screen — typically outside the active capture area used by most print screens.  
+🖼️ **“Screenshot-safe"**: BatBar sits on the extreme edge of your screen — typically outside the active capture area used by most print screens.  
 _You can still increase its width if needed, but 1px is the sweet spot for invisibility!_
 
-**Ideal for streamers, designers, and screen recorders!**
+**Ideal for streamers, designers and screen recorders!**
 
 ## 🔋The BatBar |
 
 - 👀 **Instant visual feedback**: the height of the bar shows your battery level
-- 🚦 **Intuitive color coding**: just standard green-orange-red & blue hints
+- 🚦 **Intuitive color coding**: just simple red orange yellow green + blue hints
 - 📸 **Screenshot-safe**: invisible in most screenshots and screen recordings
-- 📌 **Always on top**: stays above all windows
-- 🖱️ **Adjustable width**: just scroll the mouse wheel over the bar
+- 📌 **Always on top**: stays above all windows, always there
+- 🖱️ **Adjustable**: just scroll the mouse wheel over the bar to resize it
 - 🫥 **Non-intrusive design**: minimalist and out of the way
 
-<img src="https://github.com/simonquasar/BatBar/blob/main/batbar_preview.jpg" alt="BatBar Preview">
+<img src="https://github.com/simonquasar/BatBar/blob/main/batbar_preview.jpg" alt="BatBar | Battery Bar 1px wide">
 
 ## 🚀 How It Works
 
 The bar automatically appears on the right edge of your primary screen .
 
-- **Adjust width**: `mouse wheel up/down` over the bar (1–10 px)
+- **Adjust width**: `mouse wheel` `up/down` over the bar (1-10 px)
 - **Close the bar**: `SHIFT + right-click` on the bar
 
 ## ⚡ Resource Usage
 
 This utility is designed to be extremely lightweight:
 
-- 📦 **Size**: Tiny 61KB compiled executable
+- 📦 **Tiny**: 61KB WIN .exe / ~12MB Linux package
 - 💾 **Memory**: <20MB RAM usage
 - 🔄 **CPU**: < 0.1% idle, 0.1-0.3% during updates (every 5s)
-- 🔋 **Battery Impact**: Negligible due to efficient polling
-- 🚀 **Startup**: Instant launch, no dependencies
+- 🔋 **Battery**: Negligible impact
+- 🚀 **Simple**: Instant launch, no dependencies
 
 Runs silently in the background without impacting system performance.
 
-## 🧠 Why BatBar?
+## 💡 Why BatBar?
 
 Most battery indicators are cluttered, over-engineered or get in your - and your system resources' - way. 
 **BatBar** focuses on pure function with an aesthetic that’s nearly invisible, also for your system. The solution for developers, creatives and minimalists who want instant battery awareness without distractions.
 
 
-## 🔧 Installation
+## 💻 Installation
 
-for Windows 10/11
+### for Windows 10/11
 
-### ✅ Option 1: Standalone Executable (recommended)
+#### ✅ Option 1: Standalone Executable (recommended)
 1. Download the latest release (`BatBar.exe`) from the [Releases](https://github.com/simonquasar/batbar/releases) page
 2. Run the executable
-   - No installation required
-   - No external dependencies
 
-### ⚙️ Option 2: PowerShell Script
+#### 💻 Option 2: PowerShell Script
+- requires: PowerShell 5.1+ 
 1. Download `BatBar.ps1`
-2. Right-click the file and select “Run with PowerShell”
+2. Right-click the file and select “_Run with PowerShell_”
 
+### for Linux
 
-## 💻 System Requirements
+#### ✅ Option 1: Standalone Executable (recommended)
+1. Download the latest release (`BatBar`) from the [Releases](https://github.com/simonquasar/batbar/releases) page
+2. Make the file executable:  
+   `chmod +x BatBar`
+3. Run:  
+   `./BatBar`
 
-- Windows 10 or 11
-- only for the script version: PowerShell 5.1+ 
+#### 💻 Option 2: Python Script
+- requires: Python 3.7+ and the `psutil` package  
+1. Download `BatBar.py`
+2. Install the required dependency:  
+   `pip install psutil`
+3. Run with:  
+   `python3 BatBar.py`
 
 
 ## 📜 License

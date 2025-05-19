@@ -3,5 +3,7 @@ ico/
 *.bak
 *.svg
 *.spec
+*.txt
 python/
 *test/
+linux

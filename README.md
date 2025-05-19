@@ -36,12 +36,6 @@ The bar automatically appears on the right edge of your primary screen.
 - ↔️ **Adjust width**: `mouse wheel` `up/down` over the bar (1-10 px)
 - ❌ **Close the bar**: `SHIFT + right-click` on the bar
 
-## 💡 Why BatBar?
-
-Most battery indicators are cluttered, over-engineered or get in your - and your system resources' - way. 
-
-**BatBar** focuses on pure function with an aesthetic that’s nearly invisible, also for your system. The solution for developers, creatives and minimalists who want instant battery awareness without distractions.
-
 ## ⚡ Resources
 
 This utility is designed to be extremely lightweight:
@@ -53,6 +47,11 @@ This utility is designed to be extremely lightweight:
 - 🚀 **Simple**: Instant launch, no dependencies
 
 Runs silently in the background without impacting system performance.
+
+Most battery indicators are cluttered, over-engineered or get in your - and your system resources' - way. 
+
+**BatBar** focuses on pure function with an aesthetic that’s nearly invisible, also for your system. 
+The solution for developers, creatives and minimalists who want instant battery awareness without distractions.
 
 ## ⏬ Download
 

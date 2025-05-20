@@ -21,4 +21,4 @@ jobs:
         pip install psutil
     - name: Analysing the code with pylint
       run: |
-        pylint $(git ls-files '*.py')
+        pylint --disable=C0103,W0613 $(git ls-files '*.py')

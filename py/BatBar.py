@@ -3,8 +3,7 @@
 # BatBar ⚡ v1.1
 # Version compatible with Windows 10/11, Linux and MacOS.
 # - made by simonquasar
-# pylint: disable=invalid-name, unused-argument, no-else-return
-#import sys
+
 import platform         # OS detection
 import threading        # Threading
 import time             # Sleep

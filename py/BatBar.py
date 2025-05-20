@@ -3,7 +3,7 @@
 # BatBar ⚡ v1.1
 # Version compatible with Windows 10/11, Linux and MacOS.
 # - made by simonquasar
-
+# pylint: disable=invalid-name, unused-argument, no-else-return
 #import sys
 import platform         # OS detection
 import threading        # Threading
@@ -104,7 +104,7 @@ class BatBar:
             return "orange"
         if percentage <= 50:
             return "yellow"
-        elif percentage <= 65:
+        if percentage <= 65:
             return "greenyellow"
         return "green"
 

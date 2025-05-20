@@ -1,14 +1,14 @@
 # 🔋 BatBar | The Battery Bar
 
-![Static Badge](https://img.shields.io/badge/11%20%2F%2010-%20?logo=gitforwindows&label=WINDOWS&color=318ce7)
-![Static Badge](https://img.shields.io/badge/Ubuntu%2FDebian-%20?logo=ubuntu&label=LINUX&color=E95420)
-![Static Badge](https://img.shields.io/badge/Arch%2FFedora-%20?logo=linux&label=LINUX&color=ffcc33)
-![Static Badge](https://img.shields.io/badge/compatible-%20?logo=apple&label=MAC%20OS&color=azure)
+[![Static Badge](https://img.shields.io/badge/11%20%2F%2010-%20?logo=gitforwindows&label=WINDOWS&color=318ce7)](https://github.com/simonquasar/BatBar?tab=readme-ov-file#-option-1--standalone-executable-recommended)
+[![Static Badge](https://img.shields.io/badge/Ubuntu%2FDebian-%20?logo=ubuntu&label=LINUX&color=E95420)](https://github.com/simonquasar/BatBar?tab=readme-ov-file#-option-1--standalone-executable-recommended)
+[![Static Badge](https://img.shields.io/badge/Arch%2FFedora-%20?logo=linux&label=LINUX&color=ffcc33)](https://github.com/simonquasar/BatBar?tab=readme-ov-file#-option-1--standalone-executable-recommended)
+[![Static Badge](https://img.shields.io/badge/compatible-%20?logo=apple&label=MAC%20OS&color=azure)](https://github.com/simonquasar/BatBar?tab=readme-ov-file#-option-1--standalone-executable-recommended)
 
-![Static Badge](https://img.shields.io/badge/Windows-%20?logo=phpstorm&logoColor=1292EE&label=PowerShell&color=1292EE)
-![Static Badge](https://img.shields.io/badge/Unix%2FmacOS-%20?logo=python&logoColor=green&label=Python&color=84A454)
-![GitHub file size in bytes](https://img.shields.io/github/size/simonquasar/BatBar/ps%2FBatBar.exe?label=.exe)
-![GitHub Release](https://img.shields.io/github/v/release/simonquasar/BatBar?display_name=release&color=green)
+[![Static Badge](https://img.shields.io/badge/Windows-%20?logo=phpstorm&logoColor=1292EE&label=PowerShell&color=1292EE)](https://github.com/simonquasar/BatBar?tab=readme-ov-file#-option-1--standalone-executable-recommended)
+[![Static Badge](https://img.shields.io/badge/Unix%2FmacOS-%20?logo=python&logoColor=green&label=Python&color=84A454)](https://github.com/simonquasar/BatBar?tab=readme-ov-file#-option-1--standalone-executable-recommended)
+[![GitHub file size in bytes](https://img.shields.io/github/size/simonquasar/BatBar/ps%2FBatBar.exe?label=.exe)
+](https://github.com/simonquasar/BatBar?tab=readme-ov-file#-option-1--standalone-executable-recommended)![GitHub Release](https://img.shields.io/github/v/release/simonquasar/BatBar?display_name=release&color=green)
 
 ---
 

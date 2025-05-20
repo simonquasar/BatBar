@@ -1,16 +1,24 @@
 # 🔋 BatBar | The Battery Bar
 
+![Static Badge](https://img.shields.io/badge/11%20%2F%2010-%20?logo=gitforwindows&label=WINDOWS&color=318ce7)
+![Static Badge](https://img.shields.io/badge/Ubuntu%2FDebian-%20?logo=ubuntu&label=LINUX&color=E95420)
+![Static Badge](https://img.shields.io/badge/Arch%2FFedora-%20?logo=linux&label=LINUX&color=ffcc33)
+![Static Badge](https://img.shields.io/badge/compatible-%20?logo=apple&label=MAC%20OS&color=azure)
+
+![Static Badge](https://img.shields.io/badge/Windows-%20?logo=phpstorm&logoColor=1292EE&label=PowerShell&color=1292EE)
+![Static Badge](https://img.shields.io/badge/Unix%2FmacOS-%20?logo=python&logoColor=green&label=Python&color=84A454)
 [![License: GPL v2](https://img.shields.io/badge/license-GPL--2.0-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
-![Platform: Windows](https://img.shields.io/badge/platform-Windows-blue)
-![Platform: Linux](https://img.shields.io/badge/platform-Linux%2FUbuntu-yellowgreen)
-![GitHub Release](https://img.shields.io/github/v/release/simonquasar/BatBar)
+![GitHub Release](https://img.shields.io/github/v/release/simonquasar/BatBar?display_name=release&color=green)
+
+---
+
 
 **BatBar** is an ultra-minimalist battery indicator for Windows and Linux. 
 It displays a **1-pixel-wide** colored line on the edge of your screen, giving you an immediate, unobtrusive view of your battery level. 
 
 **Always visible, never distracting.**
 
-> 🖼️ **“Screenshot-safe"**!
+> 🖼️ **“Screenshot-safe"** ❗
 > **BatBar** sits on the extreme edge of your screen - typically outside the active capture area used by most print screens.  
 > _You can still increase its width if needed, but 1px is the sweet spot for invisibility!_
 
@@ -77,6 +85,8 @@ The solution for developers, creatives and minimalists who want instant battery 
 3. Run:  
    `./BatBar`
 
+---
+
 ### Linux & MacOS
 
 #### 🔹 Python Script
@@ -87,7 +97,7 @@ The solution for developers, creatives and minimalists who want instant battery 
 3. Run with:  
    `python3 BatBar.py`
 
-
+---
 ## 📜 License
 
 This project is licensed under the **GNU General Public License v2.0**  

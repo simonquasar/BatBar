@@ -7,7 +7,7 @@
 
 ![Static Badge](https://img.shields.io/badge/Windows-%20?logo=phpstorm&logoColor=1292EE&label=PowerShell&color=1292EE)
 ![Static Badge](https://img.shields.io/badge/Unix%2FmacOS-%20?logo=python&logoColor=green&label=Python&color=84A454)
-[![License: GPL v2](https://img.shields.io/badge/license-GPL--2.0-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
+![GitHub file size in bytes](https://img.shields.io/github/size/simonquasar/BatBar/ps%2FBatBar.exe?label=.exe)
 ![GitHub Release](https://img.shields.io/github/v/release/simonquasar/BatBar?display_name=release&color=green)
 
 ---
@@ -63,9 +63,9 @@ The solution for developers, creatives and minimalists who want instant battery 
 
 ## ⏬ Download
 
-### Windows 10/11
+### Windows 10/11 
 
-#### 🔸 Option 1: ✅ Standalone Executable (recommended)
+#### 🔸 Option 1: ✅ Standalone Executable (recommended) 
 1. Download the latest release (`BatBar.exe`) from the [Releases](https://github.com/simonquasar/batbar/releases) page
 2. Run the executable
 

@@ -4,6 +4,6 @@ ico/
 *.svg
 *.spec
 *.txt
-python/
+*sq/
 *test/
 linux

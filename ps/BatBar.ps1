@@ -33,12 +33,12 @@ $form.StartPosition = "Manual"
 $form.Location = New-Object System.Drawing.Point(($screen.Width - $script:currentWidth), 0)
 $form.FormBorderStyle = "None"
 $form.TopMost = $true
-$form.ShowInTaskbar = $false 
+$form.ShowInTaskbar = $false
 $form.BackColor = [System.Drawing.Color]::Black
 $form.TransparencyKey = [System.Drawing.Color]::Black
 $form.Opacity = 1
 $form.Text = "BatBar"
-$form.ShowIcon = $false 
+$form.ShowIcon = $false
 
 $batteryBar = New-Object System.Windows.Forms.Panel
 $batteryBar.Width = $script:currentWidth
@@ -52,7 +52,7 @@ $batteryBar.Add_MouseWheel({
 })
 
 $batteryBar.Add_MouseClick({
-    if ($_.Button -eq [System.Windows.Forms.MouseButtons]::Right -and 
+    if ($_.Button -eq [System.Windows.Forms.MouseButtons]::Right -and
         [System.Windows.Forms.Control]::ModifierKeys -eq [System.Windows.Forms.Keys]::Shift) {
         $form.Close()
     }
@@ -71,20 +71,30 @@ function Update-BatteryStatus {
             $form.Text = "BatBar ⚡ $percentage%"
         }
         else {
-            if ($percentage -le 20) {
-                $batteryBar.BackColor = [System.Drawing.Color]::Red
-            }
-            elseif ($percentage -le 35) {
-                $batteryBar.BackColor = [System.Drawing.Color]::Orange
-            }
-            elseif ($percentage -le 50) {
-                $batteryBar.BackColor = [System.Drawing.Color]::Yellow
-            }
-            elseif ($percentage -le 65) {
-                $batteryBar.BackColor = [System.Drawing.Color]::GreenYellow
-            }
-            else {
-                $batteryBar.BackColor = [System.Drawing.Color]::Green
+            # Fade from Red (low) -> Orange -> Yellow -> GreenYellow -> Green (high)
+            # Define color stops
+            $colors = @(
+                @{ Pct = 0;   R = 255; G = 0;   B = 0   },   # Red
+                @{ Pct = 20;  R = 255; G = 140; B = 0   },   # Orange
+                @{ Pct = 35;  R = 255; G = 255; B = 0   },   # Yellow
+                @{ Pct = 50;  R = 173; G = 255; B = 47  },   # GreenYellow
+                @{ Pct = 65;  R = 0;   G = 128; B = 0   },   # Green
+                @{ Pct = 100; R = 0;   G = 250; B = 0   }    # Green (for 100%)
+            )
+
+            # Find the two stops to interpolate between
+            for ($i = 0; $i -lt $colors.Count - 1; $i++) {
+                $low = $colors[$i]
+                $high = $colors[$i + 1]
+                if ($percentage -ge $low.Pct -and $percentage -le $high.Pct) {
+                    $range = $high.Pct - $low.Pct
+                    if ($range -eq 0) { $t = 0 } else { $t = ($percentage - $low.Pct) / $range }
+                    $r = [int]($low.R + ($high.R - $low.R) * $t)
+                    $g = [int]($low.G + ($high.G - $low.G) * $t)
+                    $b = [int]($low.B + ($high.B - $low.B) * $t)
+                    $batteryBar.BackColor = [System.Drawing.Color]::FromArgb(255, $r, $g, $b)
+                    break
+                }
             }
             $form.Text = "BatBar | $percentage%"
         }
@@ -104,7 +114,7 @@ function Update-BarWidth {
 }
 
 $timer = New-Object System.Windows.Forms.Timer
-$timer.Interval = 5000 
+$timer.Interval = 5000
 $timer.Add_Tick({ Update-BatteryStatus })
 $timer.Start()
 
@@ -114,7 +124,7 @@ $form.Add_MouseWheel({
 })
 
 $form.Add_MouseClick({
-    if ($_.Button -eq [System.Windows.Forms.MouseButtons]::Right -and 
+    if ($_.Button -eq [System.Windows.Forms.MouseButtons]::Right -and
         [System.Windows.Forms.Control]::ModifierKeys -eq [System.Windows.Forms.Keys]::Shift) {
         $form.Close()
     }
@@ -125,9 +135,9 @@ $form.Add_Shown({
     $style = $style -bor $WS_EX_TOOLWINDOW -bor $WS_EX_NOACTIVATE
     [Console.Window]::SetWindowLong($form.Handle, $GWL_EXSTYLE, $style)
     [Console.Window]::SetWindowPos(
-        $form.Handle, 
-        $HWND_TOPMOST, 
-        0, 0, 0, 0, 
+        $form.Handle,
+        $HWND_TOPMOST,
+        0, 0, 0, 0,
         ($SWP_NOMOVE -bor $SWP_NOSIZE)
     )
     $form.Activate()

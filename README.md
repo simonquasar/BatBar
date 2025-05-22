@@ -1,8 +1,8 @@
 # 🔋 BatBar | The Battery Bar 1-pixel wide
 
 [![Static Badge](https://img.shields.io/badge/11%20%2F%2010-%20?logo=quarto&logoColor=lightblue&label=WINDOWS&color=318ce7)](https://github.com/simonquasar/BatBar?tab=readme-ov-file#-option-1--standalone-executable-recommended)
-![Static Badge](https://img.shields.io/badge/Ubuntu%2FDebian-%20?logo=ubuntu&label=LINUX&color=E95420)]
-![Static Badge](https://img.shields.io/badge/Arch%2FFedora-%20?logo=linux&label=LINUX&color=ffcc33)]
+![Static Badge](https://img.shields.io/badge/Ubuntu%2FDebian-%20?logo=ubuntu&label=LINUX&color=E95420)
+![Static Badge](https://img.shields.io/badge/Arch%2FFedora-%20?logo=linux&label=LINUX&color=ffcc33)
 ![Static Badge](https://img.shields.io/badge/compatible-%20?logo=apple&label=MAC%20OS&color=azure)
 
 ![Static Badge](https://img.shields.io/badge/Windows-%20?logo=phpstorm&logoColor=1292EE&label=PowerShell&color=1292EE)
@@ -50,7 +50,7 @@ The bar automatically appears on the right edge of your primary screen.
 
 This widget is designed to be extremely lightweight (both visually and on system resources):
 
-- 🧱 **Size**: 61KB `.exe` | ~12MB Linux | ~5KB `.ps1` & `.py`
+- 🧱 **Size**: 51KB `.exe` | ~12MB Linux | ~6KB `.ps1` & `.py`
 - 💾 **Memory**: <20MB RAM usage
 - 🔄 **CPU**: ~0.1% idle, <0.3% during updates (every 5s)
 - 🔋 **Battery**: virtually zero

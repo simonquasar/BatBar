@@ -1,14 +1,22 @@
-#!/usr/bin/python
-"""BatBar: A simple battery bar that shows the battery percentage and charging status."""
-# BatBar ⚡ v1.1
-# Version compatible with Windows 10/11, Linux and MacOS.
-# - made by simonquasar
+#!/usr/bin/env python3
+"""
+BatBar ⚡ v1.1
 
+A minimal cross-platform battery bar that shows the battery percentage and charging status,
+designed to stay on top of the right screen edge with a color-coded indicator.
+
+Compatible with Windows 10/11, Linux, and macOS.
+
+Author: simonquasar
+"""
+
+import colorsys         # HSV to RGB conversion
 import platform         # OS detection
 import threading        # Threading
 import time             # Sleep
 import tkinter as tk    # GUI
-import psutil           # Cross-platform system info (Requires: pip install psutil)
+
+import psutil           # System info (Requires: pip install psutil)
 
 class BatBar:
     """Main class that manages the graphical interface and battery status."""
@@ -94,18 +102,13 @@ class BatBar:
             time.sleep(5)
 
     def get_battery_color(self, percentage, is_charging):
-        """Return the color based on battery percentage and charging status."""
+        """Return color hex string based on battery percentage using HSV gradient."""
         if is_charging:
             return "deepskyblue"
-        if percentage <= 20:
-            return "red"
-        if percentage <= 35:
-            return "orange"
-        if percentage <= 50:
-            return "yellow"
-        if percentage <= 65:
-            return "greenyellow"
-        return "green"
+        percentage = max(0, min(percentage, 100))
+        hue = (percentage / 100) * 160                  # (0° red) → (160° cyan )
+        r, g, b = colorsys.hsv_to_rgb(hue / 360, 1, 1)
+        return f"#{int(r*255):02x}{int(g*255):02x}{int(b*255):02x}"
 
     def get_battery_title(self, percentage, is_charging):
         """Return the title based on battery percentage and charging status."""

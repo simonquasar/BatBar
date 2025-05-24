@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=BatBar
+Comment=Minimal battery indicator that lives on the edge of your screen
+Exec=./BatBar
+Terminal=false
+Type=Application
+Categories=System;Monitor;
+X-GNOME-Autostart=false
+Icon=/home/simon/Desktop/GitHub/repos/BatBar/ico/BatBar-512-ico.png
+Path=
+StartupNotify=true

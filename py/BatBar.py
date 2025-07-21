@@ -99,6 +99,8 @@ class BatBar:
                 title = self.get_battery_title(percentage, is_charging)
 
                 self.root.after(0, lambda: self.update_gui(new_height, color, title))
+                if percentage < 15:
+                    self.root.after(0, lambda: self.update_bar_width(self.current_width))
             time.sleep(5)
 
     def get_battery_color(self, percentage, is_charging):
@@ -122,6 +124,18 @@ class BatBar:
 
     def update_bar_width(self, new_width):
         """Update the width of the bar."""
+        # Determine minimum width based on battery percentage and charging status
+        battery = psutil.sensors_battery()
+        min_width = 1
+        if battery and not battery.power_plugged:
+            percentage = int(battery.percent)
+            if percentage <= 5:
+            min_width = 4
+            elif percentage <= 10:
+            min_width = 3
+            elif percentage <= 15:
+            min_width = 2
+        self.current_width = max(min_width, min(10, new_width))
         self.current_width = max(1, min(10, new_width))
         self.root.geometry(
             f"{self.current_width}x{self.screen_height}+"

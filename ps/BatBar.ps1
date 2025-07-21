@@ -103,7 +103,7 @@ function Update-BatteryStatus {
         $centerY = ($screen.Height - $newHeight) / 2
         $batteryBar.Location = New-Object System.Drawing.Point(0, $centerY)
         if ($percentage -le 15) {
-            Update-BarWidth $script:currentWidth
+            Update-BarWidth 1
         }
     }
 }

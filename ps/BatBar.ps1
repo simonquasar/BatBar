@@ -102,12 +102,24 @@ function Update-BatteryStatus {
         $batteryBar.Height = $newHeight
         $centerY = ($screen.Height - $newHeight) / 2
         $batteryBar.Location = New-Object System.Drawing.Point(0, $centerY)
+        if ($percentage -le 15) {
+            Update-BarWidth $script:currentWidth
+        }
     }
 }
 
 function Update-BarWidth {
     param ([int]$newWidth)
-    $script:currentWidth = [Math]::Max(1, [Math]::Min(10, $newWidth))
+    $battery = Get-WmiObject Win32_Battery
+    $percentage = $battery.EstimatedChargeRemaining
+    $isCharging = $battery.BatteryStatus -eq 2
+    $minWidth = 1
+    if (-not $isCharging) {
+        $minWidth = if ($percentage -le 5) { 4 }
+                    elseif ($percentage -le 10) { 3 }
+                    elseif ($percentage -le 15) { 2 }
+    }
+    $script:currentWidth = [Math]::Max($minWidth, [Math]::Min(10, $newWidth))
     $form.Width = $script:currentWidth
     $batteryBar.Width = $script:currentWidth
     $form.Location = New-Object System.Drawing.Point(($screen.Width - $script:currentWidth), 0)

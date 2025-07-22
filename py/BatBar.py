@@ -130,11 +130,11 @@ class BatBar:
         if battery and not battery.power_plugged:
             percentage = int(battery.percent)
             if percentage <= 5:
-            min_width = 4
+                min_width = 4
             elif percentage <= 10:
-            min_width = 3
+                min_width = 3
             elif percentage <= 15:
-            min_width = 2
+                min_width = 2
         self.current_width = max(min_width, min(10, new_width))
         self.current_width = max(1, min(10, new_width))
         self.root.geometry(

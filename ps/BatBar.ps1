@@ -103,7 +103,7 @@ function Update-BatteryStatus {
         $centerY = ($screen.Height - $newHeight) / 2
         $batteryBar.Location = New-Object System.Drawing.Point(0, $centerY)
         if ($percentage -le 15) {
-            Update-BarWidth 1
+            Update-BarWidth $batteryBar.Width
         }
     }
 }
@@ -118,6 +118,7 @@ function Update-BarWidth {
         $minWidth = if ($percentage -le 5) { 4 }
                     elseif ($percentage -le 10) { 3 }
                     elseif ($percentage -le 15) { 2 }
+                    else { 1 }
     }
     $script:currentWidth = [Math]::Max($minWidth, [Math]::Min(10, $newWidth))
     $form.Width = $script:currentWidth

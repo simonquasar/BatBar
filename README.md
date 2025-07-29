@@ -50,6 +50,7 @@ The bar automatically appears on the right edge of your primary screen.
 
 That's it!
 
+---
 
 ## Resources
 
@@ -101,6 +102,8 @@ from the [GitHub Releases](https://github.com/simonquasar/batbar/releases) page
    `pip install psutil`
 3. Run with:
    `python3 BatBar.py`
+
+---
 
 ## License
 

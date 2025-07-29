@@ -7,12 +7,12 @@ It consists of **a single-pixel line** that shows your battery level.
 
 [![BatBar](https://img.shields.io/badge/BatBar-Download%20here!-ff2850?style=flat-square)](https://github.com/simonquasar/BatBar/releases/latest)
 
-[![GitHub repo](https://img.shields.io/badge/GitHub-BatBar-white?logo=github&style=flat-square)](https://github.com/simonquasar/BatBar)
+[![GitHub repo](https://img.shields.io/badge/GitHub-BatBar-white?logo=github&color=ffcc00&style=flat-square)](https://github.com/simonquasar/BatBar)
 [![GitHub Release](https://img.shields.io/github/v/release/simonquasar/BatBar?display_name=release&color=green&style=flat-square)](https://github.com/simonquasar/BatBar/releases/latest)
 
 ![Static Badge](https://img.shields.io/badge/11%20%2F%2010-%20?logo=quarto&logoColor=lightblue&label=WINDOWS&color=318ce7&style=flat-square)
-![Static Badge](https://img.shields.io/badge/Ubuntu%2FDebian%2FArch-%20?logo=linux&label=LINUX&color=E95420&style=flat-square)
-![Static Badge](https://img.shields.io/badge/compatible-%20?logo=apple&label=MAC%20OS&color=azure&style=flat-square)
+![Static Badge](https://img.shields.io/badge/Ubuntu%2FDebian%2FArch-%20?logo=linux&logoColor=E95420&label=LINUX&color=E95420&style=flat-square)
+![Static Badge](https://img.shields.io/badge/compatible-%20?logo=apple&label=MAC%20OS&color=ff8b9b&style=flat-square)
 
 ![Static Badge](https://img.shields.io/badge/Windows-%20?logo=phpstorm&logoColor=1292EE&label=PowerShell&color=1292EE&style=flat-square)
 ![Static Badge](https://img.shields.io/badge/Unix%2FmacOS-%20?logo=python&logoColor=green&label=Python&color=84A454&style=flat-square)
@@ -102,7 +102,7 @@ from the [GitHub Releases](https://github.com/simonquasar/batbar/releases?style=
 
 #### 🔹 Python Script
 - requires: Python 3.7+ and the `psutil` package
-1. Download `BatBar.py` [![GitHub file size in bytes](https://img.shields.io/github/size/simonquasar/BatBar/py%2FBatBar.py?label=.py&color=84A454&style=plastic)](https://github.com/simonquasar/BatBar/releases/latest)
+1. Download `BatBar.py` [![GitHub file size in bytes](https://img.shields.io/github/size/simonquasar/BatBar/py%2FBatBar.py?label=.py&color=E95420&style=plastic)](https://github.com/simonquasar/BatBar/releases/latest)
 2. Install the required dependency:
    `pip install psutil`
 3. Run with:

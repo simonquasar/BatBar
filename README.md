@@ -37,7 +37,7 @@ _You can still increase its width if needed, but 1px is the sweet spot for invis
 
 ---
 
-## 🚦 Usage
+## Usage
 
 **<p align="center">Non-intrusive design: minimalism taken seriously.</p>**
 

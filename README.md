@@ -47,7 +47,7 @@ The bar automatically appears on the right edge of your primary screen.
 
 This widget is designed to be extremely lightweight (both visually and on system resources):
 
-- **Size**: .exe < 51Kb | unix 12Mb | .ps\ & py < 6Kb
+- **Size**: 51KB `.exe` | ~12MB Linux | ~6KB `.ps1` & `.py`
 - **Memory**: <20MB RAM usage
 - **CPU**: ~0.1% idle, <0.3% during updates (every 5s)
 - **Battery**: virtually zero

@@ -14,7 +14,7 @@
 ![GitHub Release](https://img.shields.io/github/v/release/simonquasar/BatBar?display_name=release&color=green)
 
 
-🚦 **BatBar** is an ultra-minimalist battery indicator for Windows, Linux, and macOS.
+**BatBar** is an ultra-minimalist battery indicator for Windows, Linux, and macOS.
 **A single-pixel line** that shows your battery level.
 
 **<p align="center">Always visible. Never distracting.</p>**
@@ -37,7 +37,7 @@ _You can still increase its width if needed, but 1px is the sweet spot for invis
 
 ---
 
-## Usage
+## 🚦 Usage
 
 **<p align="center">Non-intrusive design: minimalism taken seriously.</p>**
 

@@ -2,8 +2,9 @@
 
 ---
 
-**BatBar** is the 1-pixel wide battery bar. An ultra-minimalist status indicator for Windows, Linux, and macOS.
-It consists of **a single-pixel line** that shows your battery level.
+**BatBar** is the 1-pixel wide battery bar. An ultra-minimalist status indicator for Windows, Linux and macOS.
+
+It consists of **a single-pixel line** that shows your battery level. That's it.
 
 [![BatBar](https://img.shields.io/badge/BatBar-Download%20here!-ff2850?style=flat-square)](https://github.com/simonquasar/BatBar/releases/latest)
 
@@ -51,7 +52,7 @@ The bar automatically appears on the right edge of your primary screen.
 - ↔️ **Adjust width** (1-10 px) with `mouse wheel up/down` 
 - ❌ **Close the bar** with `SHIFT + right-click` on it
 
-That's it!
+That's all!
 
 ---
 

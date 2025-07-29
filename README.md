@@ -63,7 +63,7 @@ The solution for who wants **instant battery awareness without distractions**.
 ### Windows 10/11
 
 #### 🔹 Option 1: Standalone Executable (recommended) ✅
-1. Download the latest release (`BatBar.exe`) from the [GitHub Releases](https://github.com/simonquasar/batbar/releases) page ![GitHub file size in bytes](https://img.shields.io/github/size/simonquasar/BatBar/ps%2FBatBar.exe?label=.exe&color=318ce7&link=https%3A%2F%2Fgithub.com%2Fsimonquasar%2FBatBar%2Fblob%2Fmain%2Fps%2FBatBar.exe)
+1. Download the latest release (`BatBar.exe`) from the [GitHub Releases](https://github.com/simonquasar/batbar/releases) page ![GitHub file size in bytes](https://img.shields.io/github/size/simonquasar/BatBar/ps%2FBatBar.exe?label=.exe&color=318ce7&link=https%3A%2F%2Fraw.githubusercontent.com%2Fsimonquasar%2FBatBar%2Fblob%2Fmain%2Fps%2FBatBar.exe)
 2. Run - that's it.
 
 #### 🔹 Option 2: PowerShell Script
@@ -84,7 +84,7 @@ The solution for who wants **instant battery awareness without distractions**.
 
 #### 🔹 Python Script
 - requires: Python 3.7+ and the `psutil` package
-1. Download `BatBar.py` from the [GitHub Releases](https://github.com/simonquasar/batbar/releases) page ![GitHub file size in bytes](https://img.shields.io/github/size/simonquasar/BatBar/py%2FBatBar.py?label=.py&color=84A454&link=https%3A%2F%2Fgithub.com%2Fsimonquasar%2Fbatbar%2Freleases)
+1. Download `BatBar.py` from the [GitHub Releases](https://github.com/simonquasar/batbar/releases) page ![GitHub file size in bytes](https://img.shields.io/github/size/simonquasar/BatBar/py%2FBatBar.py?label=.py&color=84A454&&link=https%3A%2F%2Fraw.githubusercontent.com%2Fsimonquasar%2FBatBar%2Frefs%2Fheads%2Fmain%2Fpy%2FBatBar.py)
 2. Install the required dependency:
    `pip install psutil`
 3. Run with:

@@ -66,11 +66,11 @@ The solution for who wants **instant battery awareness without distractions**.
 
 #### 🔹 Option 1: ![Static Badge](https://img.shields.io/badge/11%20%2F%2010-%20?logo=quarto&logoColor=lightblue&label=WINDOWS&color=318ce7) Standalone Executable (recommended) ✅
 1. Download the latest release (`BatBar.exe`) from the [GitHub Releases](https://github.com/simonquasar/batbar/releases) page
-2. Run it - that's it.
+2. Run - that's it.
 
 #### 🔹 Option 2: ![Static Badge](https://img.shields.io/badge/Windows-%20?logo=phpstorm&logoColor=1292EE&label=PowerShell&color=1292EE) PowerShell Script
 - requires: PowerShell 5.1+
-1. Download `BatBar.ps1` [GitHub Releases](https://github.com/simonquasar/batbar/releases) page
+1. Download `BatBar.ps1` from the [GitHub Releases](https://github.com/simonquasar/batbar/releases) page
 2. Right-click the file and select “_Run with PowerShell_”
 
 ### Linux (Debian/Ubuntu)
@@ -91,8 +91,6 @@ The solution for who wants **instant battery awareness without distractions**.
    `pip install psutil`
 3. Run with:
    `python3 BatBar.py`
-
----
 
 ## License
 

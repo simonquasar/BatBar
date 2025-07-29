@@ -34,12 +34,11 @@ Screenshot-safe: designed to hide in plain sight.
 
 ![BatBar](https://raw.githubusercontent.com/simonquasar/BatBar/main/BatBar.jpg)
 
+**BatBar** is made for creators, coders, productivity purists and minimalists - people who care about signal over noise. Runs silently in the background without impacting system performance.
+
 ---
 
 ## Usage
-
-**BatBar** is made for creators, coders, productivity purists and minimalists - people who care about signal over noise. Runs silently in the background without impacting system performance.
-
 
 The bar automatically appears on the right edge of your primary screen.
 
@@ -59,6 +58,8 @@ Most battery indicators are cluttered, over-engineered, and demand system resour
 **BatBar** delivers pure functionality with a nearly invisible aesthetic that stays out of your way while keeping you informed.
 The solution for who wants **instant battery awareness without distractions**.
 
+---
+
 ## ⏬ Download
 
 ### Windows 10/11
@@ -72,8 +73,6 @@ The solution for who wants **instant battery awareness without distractions**.
 1. Download `BatBar.ps1`
 2. Right-click the file and select “_Run with PowerShell_”
 
----
-
 ### Linux (Debian/Ubuntu)
 
 #### ✅ Standalone Executable (recommended)
@@ -82,8 +81,6 @@ The solution for who wants **instant battery awareness without distractions**.
    `chmod +x BatBar`
 3. Run:
    `./BatBar`
-
----
 
 ### Linux & MacOS
 
@@ -95,11 +92,12 @@ The solution for who wants **instant battery awareness without distractions**.
 3. Run with:
    `python3 BatBar.py`
 
+---
+
 ## License
 
 This project is licensed under the **GNU General Public License v2.0**
 See the full license text [here](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html).
 
----
 
 👤 _Crafted with minimalism by [simonquasar](https://www.simonquasar.net)_

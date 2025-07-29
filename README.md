@@ -1,5 +1,5 @@
 # 🔋 BatBar | The Battery Bar 1-pixel wide
-
+[![GitHub repo](https://img.shields.io/badge/GitHub-BatBar-white?logo=github)](https://github.com/simonquasar/BatBar)
 [![Static Badge](https://img.shields.io/badge/11%20%2F%2010-%20?logo=quarto&logoColor=lightblue&label=WINDOWS&color=318ce7)](https://github.com/simonquasar/BatBar?tab=readme-ov-file#-option-1--standalone-executable-recommended)
 ![Static Badge](https://img.shields.io/badge/Ubuntu%2FDebian-%20?logo=ubuntu&label=LINUX&color=E95420)
 ![Static Badge](https://img.shields.io/badge/Arch%2FFedora-%20?logo=linux&label=LINUX&color=ffcc33)

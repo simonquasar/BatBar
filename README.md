@@ -2,22 +2,21 @@
 
 ---
 
-[![GitHub repo](https://img.shields.io/badge/GitHub-BatBar-white?logo=github)](https://github.com/simonquasar/BatBar)
-[![Static Badge](https://img.shields.io/badge/11%20%2F%2010-%20?logo=quarto&logoColor=lightblue&label=WINDOWS&color=318ce7)](https://github.com/simonquasar/BatBar?tab=readme-ov-file#-option-1--standalone-executable-recommended)
+![GitHub Release](https://img.shields.io/github/v/release/simonquasar/BatBar?display_name=release&color=green)
+![Static Badge](https://img.shields.io/badge/11%20%2F%2010-%20?logo=quarto&logoColor=lightblue&label=WINDOWS&color=318ce7)
 ![Static Badge](https://img.shields.io/badge/Ubuntu%2FDebian-%20?logo=ubuntu&label=LINUX&color=E95420)
+![Static Badge](https://img.shields.io/badge/Arch%2FFedora-%20?logo=linux&label=LINUX&color=ffcc33)
 ![Static Badge](https://img.shields.io/badge/compatible-%20?logo=apple&label=MAC%20OS&color=azure)
 ![Static Badge](https://img.shields.io/badge/Windows-%20?logo=phpstorm&logoColor=1292EE&label=PowerShell&color=1292EE)
 ![Static Badge](https://img.shields.io/badge/Unix%2FmacOS-%20?logo=python&logoColor=green&label=Python&color=84A454)
-![GitHub file size in bytes](https://img.shields.io/github/size/simonquasar/BatBar/ps%2FBatBar.exe?label=.exe)
-![GitHub Release](https://img.shields.io/github/v/release/simonquasar/BatBar?display_name=release&color=green)
 
+[![GitHub repo](https://img.shields.io/badge/GitHub-BatBar-white?logo=github)](https://github.com/simonquasar/BatBar)
 
 **BatBar** is an ultra-minimalist battery indicator for Windows, Linux, and macOS.
 **A single-pixel line** that shows your battery level.
 
-**<p align="center">Always visible. Never distracting.</p>**
-
 ## Key Features
+**<p align="center">Always visible. Never distracting.</p>**
 - **Instant visual feedback**: the height of the vertical bar reflects battery level
 - **Intuitive color coding**: just simple red-orange-yellow-green + blue hints
 - **Always on top**: persistent visibility without distraction
@@ -50,7 +49,7 @@ The bar automatically appears on the right edge of your primary screen.
 
 This widget is designed to be extremely lightweight (both visually and on system resources):
 
-- **Size**: 51KB `.exe` | ~12MB Linux | ~6KB `.ps1` & `.py`
+- **Size**: ![GitHub file size in bytes](https://img.shields.io/github/size/simonquasar/BatBar/ps%2FBatBar.exe?label=.exe&color=318ce7) | ![GitHub file size in bytes](https://img.shields.io/github/size/simonquasar/BatBar/py%2FBatBar?label=Unix&color=E95420) | ![GitHub file size in bytes](https://img.shields.io/github/size/simonquasar/BatBar/ps%2FBatBar.ps1?label=.ps1&color=1292EE) & ![GitHub file size in bytes](https://img.shields.io/github/size/simonquasar/BatBar/py%2FBatBar.py?label=.py&color=84A454)
 - **Memory**: <20MB RAM usage
 - **CPU**: ~0.1% idle, <0.3% during updates (every 5s)
 - **Battery**: virtually zero
@@ -65,18 +64,18 @@ The solution for who wants **instant battery awareness without distractions**.
 
 ### Windows 10/11
 
-#### 🔹 Option 1: ✅ Standalone Executable (recommended)
+#### 🔹 Option 1: ![Static Badge](https://img.shields.io/badge/11%20%2F%2010-%20?logo=quarto&logoColor=lightblue&label=WINDOWS&color=318ce7) Standalone Executable (recommended) ✅
 1. Download the latest release (`BatBar.exe`) from the [GitHub Releases](https://github.com/simonquasar/batbar/releases) page
 2. Run it - that's it.
 
-#### 🔹 Option 2: PowerShell Script
+#### 🔹 Option 2: ![Static Badge](https://img.shields.io/badge/Windows-%20?logo=phpstorm&logoColor=1292EE&label=PowerShell&color=1292EE) PowerShell Script
 - requires: PowerShell 5.1+
-1. Download `BatBar.ps1`
+1. Download `BatBar.ps1` [GitHub Releases](https://github.com/simonquasar/batbar/releases) page
 2. Right-click the file and select “_Run with PowerShell_”
 
 ### Linux (Debian/Ubuntu)
 
-#### ✅ Standalone Executable (recommended)
+#### ![Static Badge](https://img.shields.io/badge/Ubuntu%2FDebian-%20?logo=ubuntu&label=LINUX&color=E95420) Standalone Executable (recommended) ✅
 1. Download the latest release (`BatBar`) from the [GitHub Releases](https://github.com/simonquasar/batbar/releases) page
 2. Make the file executable:
    `chmod +x BatBar`
@@ -84,9 +83,8 @@ The solution for who wants **instant battery awareness without distractions**.
    `./BatBar`
 
 ### Linux & MacOS
-![Static Badge](https://img.shields.io/badge/Arch%2FFedora-%20?logo=linux&label=LINUX&color=ffcc33)
 
-#### 🔹 Python Script
+#### 🔹 ![Static Badge](https://img.shields.io/badge/Unix%2FmacOS-%20?logo=python&logoColor=green&label=Python&color=84A454) Python Script
 - requires: Python 3.7+ and the `psutil` package
 1. Download `BatBar.py` from the [GitHub Releases](https://github.com/simonquasar/batbar/releases) page
 2. Install the required dependency:

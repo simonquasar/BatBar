@@ -58,8 +58,6 @@ That's all!
 
 ## Resources
 
-**<p align="center">BatBar** is made for creators, coders, productivity purists and minimalists - people who care about signal over noise.</p>
-
 This widget is designed to be extremely lightweight (both visually and on system resources), runs silently in the background without impacting system performance:
 
 - **Size**: `51KB .exe` | `~12MB deb` | `~6KB .ps1 & .py`
@@ -74,6 +72,8 @@ The solution for who wants **instant battery awareness without distractions**.
 ---
 
 ## ⏬ Download
+
+**<p align="center">BatBar** is made for creators, coders, productivity purists and people who care about **signal over noise**.</p>
 
 [![BatBar](https://img.shields.io/badge/BatBar-Download%20here!-ff2850?style=flat-square)](https://github.com/simonquasar/BatBar/releases/latest)
 

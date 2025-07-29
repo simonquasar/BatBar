@@ -98,7 +98,7 @@ from the [GitHub Releases](https://github.com/simonquasar/BatBar/releases/) page
 3. Run:
    `./BatBar`
 
-### Linux & MacOS
+### Linux (Arch/Unix) & MacOS
 
 #### 🔹 Python Script
 - requires: Python 3.7+ and the `psutil` package

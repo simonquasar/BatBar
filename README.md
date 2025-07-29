@@ -1,4 +1,7 @@
 # 🔋 BatBar | The Battery Bar 1-pixel wide
+
+---
+
 [![GitHub repo](https://img.shields.io/badge/GitHub-BatBar-white?logo=github)](https://github.com/simonquasar/BatBar)
 [![Static Badge](https://img.shields.io/badge/11%20%2F%2010-%20?logo=quarto&logoColor=lightblue&label=WINDOWS&color=318ce7)](https://github.com/simonquasar/BatBar?tab=readme-ov-file#-option-1--standalone-executable-recommended)
 ![Static Badge](https://img.shields.io/badge/Ubuntu%2FDebian-%20?logo=ubuntu&label=LINUX&color=E95420)
@@ -10,13 +13,11 @@
 ![GitHub file size in bytes](https://img.shields.io/github/size/simonquasar/BatBar/ps%2FBatBar.exe?label=.exe)
 ![GitHub Release](https://img.shields.io/github/v/release/simonquasar/BatBar?display_name=release&color=green)
 
----
-
 
 🚦 **BatBar** is an ultra-minimalist battery indicator for Windows, Linux, and macOS.
 **A single-pixel line** that shows your battery level.
 
-**Always visible. Never distracting.**
+**<p align="center">Always visible. Never distracting.</p>**
 
 ## Key Features
 - **Instant visual feedback**: the height of the vertical bar reflects battery level
@@ -24,21 +25,21 @@
 - **Always on top**: persistent visibility without distraction
 - **Adjustable**: scroll to resize the width
 
-**Non-intrusive design: minimalism taken seriously.**
+**<p align="center">Screenshot-safe: designed to hide in plain sight.</p>**
 
-> **BatBar** sits on the extreme edge of your screen - typically outside the active capture area used by most print screens.
-> _You can still increase its width if needed, but 1px is the sweet spot for invisibility!_
-
-Screenshot-safe: designed to hide in plain sight.
-**Ideal for streamers, designers and screen recorders!**
+**BatBar** sits on the extreme edge of your screen - typically outside the active capture area used by most print screens.
+_You can still increase its width if needed, but 1px is the sweet spot for invisibility!_
 
 ![BatBar](https://raw.githubusercontent.com/simonquasar/BatBar/main/BatBar.jpg)
 
-**BatBar** is made for creators, coders, productivity purists and minimalists - people who care about signal over noise. Runs silently in the background without impacting system performance.
+**<p align="center">Ideal for streamers, designers and screen recorders!</p>**
+**<p align="center">BatBar** is made for creators, coders, productivity purists and minimalists - people who care about signal over noise. Runs silently in the background without impacting system performance.</p>
 
 ---
 
 ## Usage
+
+**<p align="center">Non-intrusive design: minimalism taken seriously.</p>**
 
 The bar automatically appears on the right edge of your primary screen.
 

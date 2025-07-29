@@ -63,12 +63,12 @@ The solution for who wants **instant battery awareness without distractions**.
 ### Windows 10/11
 
 #### 🔹 Option 1: Standalone Executable (recommended) ✅
-1. Download the latest release (`BatBar.exe`) from the [GitHub Releases](https://github.com/simonquasar/batbar/releases) page ![GitHub file size in bytes](https://img.shields.io/github/size/simonquasar/BatBar/ps%2FBatBar.exe?label=.exe&color=318ce7&link=https%3A%2F%2Fgithub.com%2Fsimonquasar%2Fbatbar%2Freleases)
+1. Download the latest release (`BatBar.exe`) from the [GitHub Releases](https://github.com/simonquasar/batbar/releases) page ![GitHub file size in bytes](https://img.shields.io/github/size/simonquasar/BatBar/ps%2FBatBar.exe?label=.exe&color=318ce7&link=https%3A%2F%2Fgithub.com%2Fsimonquasar%2FBatBar%2Fblob%2Fmain%2Fps%2FBatBar.exe)
 2. Run - that's it.
 
 #### 🔹 Option 2: PowerShell Script
 - requires: PowerShell 5.1+
-1. Download `BatBar.ps1` from the [GitHub Releases](https://github.com/simonquasar/batbar/releases) page ![GitHub file size in bytes](https://img.shields.io/github/size/simonquasar/BatBar/ps%2FBatBar.ps1?label=.ps1&color=1292EE&link=https%3A%2F%2Fgithub.com%2Fsimonquasar%2Fbatbar%2Freleases)
+1. Download `BatBar.ps1` from the [GitHub Releases](https://github.com/simonquasar/batbar/releases) page ![GitHub file size in bytes](https://img.shields.io/github/size/simonquasar/BatBar/ps%2FBatBar.ps1?label=.ps1&color=1292EE&link=https%3A%2F%2Fraw.githubusercontent.com%2Fsimonquasar%2FBatBar%2Frefs%2Fheads%2Fmain%2Fps%2FBatBar.ps1)
 2. Right-click the file and select “_Run with PowerShell_”
 
 ### Linux (Debian/Ubuntu)

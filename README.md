@@ -76,7 +76,7 @@ The solution for who wants **instant battery awareness without distractions**.
 
 [![BatBar](https://img.shields.io/badge/BatBar-Download%20here!-ff2850?style=flat-square)](https://github.com/simonquasar/BatBar/releases/latest)
 
-from the [GitHub Releases](https://github.com/simonquasar/batbar/releases?style=flat-square) page
+from the [GitHub Releases](https://github.com/simonquasar/batbar/releases) page
 
 ### Windows 10/11
 

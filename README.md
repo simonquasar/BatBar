@@ -2,8 +2,8 @@
 
 ---
 
-![GitHub Release](https://img.shields.io/github/v/release/simonquasar/BatBar?display_name=release&color=green)
 [![GitHub repo](https://img.shields.io/badge/GitHub-BatBar-white?logo=github)](https://github.com/simonquasar/BatBar)
+![GitHub Release](https://img.shields.io/github/v/release/simonquasar/BatBar?display_name=release&color=green)
 
 ![Static Badge](https://img.shields.io/badge/11%20%2F%2010-%20?logo=quarto&logoColor=lightblue&label=WINDOWS&color=318ce7)
 ![Static Badge](https://img.shields.io/badge/Ubuntu%2FDebian%2FArch-%20?logo=linux&label=LINUX&color=E95420)
@@ -45,8 +45,8 @@ _You can still increase its width, while 1px remains the sweet spot for invisibi
 
 The bar automatically appears on the right edge of your primary screen.
 
-- ↔️ **Adjust width** with `mouse wheel` `up/down` over the bar (1-10 px)
-- ❌ **Close the bar** by pressing `SHIFT + right-click` on the bar
+- ↔️ **Adjust width** (1-10 px) with `mouse wheel` `up/down` 
+- ❌ **Close the bar** by pressing `SHIFT + right-click` on it
 
 That's it!
 

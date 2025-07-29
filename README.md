@@ -74,7 +74,7 @@ The solution for who wants **instant battery awareness without distractions**.
 ### Linux (Debian/Ubuntu)
 
 #### Standalone Executable (recommended) ✅
-1. Download the latest release (`BatBar`) from the [GitHub Releases](https://github.com/simonquasar/batbar/releases) page ![GitHub file size in bytes](https://img.shields.io/github/size/simonquasar/BatBar/py%2FBatBar?label=Unix&color=E95420&link=https%3A%2F%2Fgithub.com%2Fsimonquasar%2Fbatbar%2Freleases)
+1. Download the latest release (`BatBar.Debian`) from the [GitHub Releases](https://github.com/simonquasar/batbar/releases) page ![GitHub file size in bytes](https://img.shields.io/github/size/simonquasar/BatBar/py%2FBatBar?label=Unix&color=E95420&link=https%3A%2F%2Fgithub.com%2Fsimonquasar%2Fbatbar%2Freleases)
 2. Make the file executable:
    `chmod +x BatBar`
 3. Run:

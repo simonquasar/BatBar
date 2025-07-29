@@ -48,8 +48,8 @@ _You can still increase its width, while 1px remains the sweet spot for invisibi
 
 The bar automatically appears on the right edge of your primary screen.
 
-- ↔️ **Adjust width** (1-10 px) with `mouse wheel` `up/down` 
-- ❌ **Close the bar** by pressing `SHIFT + right-click` on it
+- ↔️ **Adjust width** (1-10 px) with `mouse wheel up/down` 
+- ❌ **Close the bar** with `SHIFT + right-click` on it
 
 That's it!
 

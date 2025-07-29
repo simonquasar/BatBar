@@ -25,6 +25,8 @@
 - **Always on top**: persistent visibility without distraction
 - **Adjustable**: scroll to resize the width
 
+---
+
 **<p align="center">Screenshot-safe: designed to hide in plain sight.</p>**
 
 **BatBar** sits on the extreme edge of your screen - typically outside the active capture area used by most print screens.

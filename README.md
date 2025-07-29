@@ -4,7 +4,6 @@
 ![Static Badge](https://img.shields.io/badge/Ubuntu%2FDebian-%20?logo=ubuntu&label=LINUX&color=E95420)
 ![Static Badge](https://img.shields.io/badge/Arch%2FFedora-%20?logo=linux&label=LINUX&color=ffcc33)
 ![Static Badge](https://img.shields.io/badge/compatible-%20?logo=apple&label=MAC%20OS&color=azure)
-
 ![Static Badge](https://img.shields.io/badge/Windows-%20?logo=phpstorm&logoColor=1292EE&label=PowerShell&color=1292EE)
 ![Static Badge](https://img.shields.io/badge/Unix%2FmacOS-%20?logo=python&logoColor=green&label=Python&color=84A454)
 ![Pylint](https://github.com/simonquasar/BatBar/actions/workflows/pylint.yml/badge.svg?branch=main)
@@ -34,6 +33,8 @@ Screenshot-safe: designed to hide in plain sight.
 **Ideal for streamers, designers and screen recorders!**
 
 ![BatBar](https://raw.githubusercontent.com/simonquasar/BatBar/main/BatBar.jpg)
+
+---
 
 ## Usage
 

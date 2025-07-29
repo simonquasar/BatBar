@@ -58,7 +58,9 @@ That's all!
 
 ## Resources
 
-This widget is designed to be extremely lightweight (both visually and on system resources), runs silently in the background without impacting system performance:
+Runs silently in the background without impacting system performance.
+
+This widget is designed to be extremely lightweight (both visually and on system resources):
 
 - **Size**: `51KB .exe` | `~12MB deb` | `~6KB .ps1 & .py`
 - **Memory**: <20MB RAM usage

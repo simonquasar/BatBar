@@ -43,6 +43,7 @@ _You can still increase its width, while 1px remains the sweet spot for invisibi
 
 ---
 
+
 ## Usage
 
 **<p align="center">Non-intrusive design: minimalism taken seriously.</p>**
@@ -55,6 +56,7 @@ The bar automatically appears on the right edge of your primary screen.
 That's all!
 
 ---
+
 
 ## Resources
 
@@ -69,9 +71,10 @@ This widget is designed to be extremely lightweight (both visually and on system
 
 Most battery indicators are cluttered, over-engineered, and demand system resources or some interaction.
 **BatBar** delivers pure functionality with a nearly invisible aesthetic that stays out of your way while keeping you informed.
-The solution for who wants **instant battery awareness without distractions**.
+The solution for who wants **instant battery awareness without distractions** and overhead.
 
 ---
+
 
 ## ⏬ Download
 
@@ -117,6 +120,7 @@ from the [GitHub Releases](https://github.com/simonquasar/BatBar/releases/) page
 
 This project is licensed under the **GNU General Public License v2.0**
 See the full license text [here](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html).
+
 
 
 👤 _Crafted with minimalism by [simonquasar](https://www.simonquasar.net)_

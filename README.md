@@ -5,8 +5,10 @@
 **BatBar** is the 1-pixel wide battery bar. Un ultra-minimalist status indicator for Windows, Linux, and macOS.
 It consists of **a single-pixel line** that shows your battery level.
 
+[![BatBar](https://img.shields.io/badge/BatBar-Download%20here!-ff2850)](https://github.com/simonquasar/BatBar/releases/latest)
+
 [![GitHub repo](https://img.shields.io/badge/GitHub-BatBar-white?logo=github)](https://github.com/simonquasar/BatBar)
-![GitHub Release](https://img.shields.io/github/v/release/simonquasar/BatBar?display_name=release&color=green)
+[![GitHub Release](https://img.shields.io/github/v/release/simonquasar/BatBar?display_name=release&color=green)](https://github.com/simonquasar/BatBar/releases/latest)
 
 ![Static Badge](https://img.shields.io/badge/11%20%2F%2010-%20?logo=quarto&logoColor=lightblue&label=WINDOWS&color=318ce7)
 ![Static Badge](https://img.shields.io/badge/Ubuntu%2FDebian%2FArch-%20?logo=linux&label=LINUX&color=E95420)
@@ -72,23 +74,25 @@ The solution for who wants **instant battery awareness without distractions**.
 
 ## ⏬ Download
 
+[![BatBar](https://img.shields.io/badge/BatBar-Download%20here!-ff2850)](https://github.com/simonquasar/BatBar/releases/latest)
+
 from the [GitHub Releases](https://github.com/simonquasar/batbar/releases) page
 
 ### Windows 10/11
 
 #### 🔹 Option 1: Standalone Executable (recommended) ✅
-1. Download the latest release (`BatBar.Windows.x86_64.exe`) ![GitHub file size in bytes](https://img.shields.io/github/size/simonquasar/BatBar/ps%2FBatBar.exe?label=.exe&color=318ce7&link=https%3A%2F%2Fgithub.com%2Fsimonquasar%2FBatBar%2Freleases%2Flatest)
+1. Download the latest release (`BatBar.Windows.x86_64.exe`) [![GitHub file size in bytes](https://img.shields.io/github/size/simonquasar/BatBar/ps%2FBatBar.exe?label=.exe&color=318ce7)](https://github.com/simonquasar/BatBar/releases/latest)
 2. Run - that's it.
 
 #### 🔹 Option 2: PowerShell Script
 - requires: PowerShell 5.1+
-1. Download `BatBar.ps1` ![GitHub file size in bytes](https://img.shields.io/github/size/simonquasar/BatBar/ps%2FBatBar.ps1?label=.ps1&color=1292EE&link=https%3A%2F%2Fgithub.com%2Fsimonquasar%2FBatBar%2Freleases%2Flatest)
+1. Download `BatBar.ps1` [![GitHub file size in bytes](https://img.shields.io/github/size/simonquasar/BatBar/ps%2FBatBar.ps1?label=.ps1&color=1292EE)](https://github.com/simonquasar/BatBar/releases/latest)
 2. Right-click the file and select “_Run with PowerShell_”
 
 ### Linux (Debian/Ubuntu)
 
 #### Standalone Executable (recommended) ✅
-1. Download the latest release (`BatBar.Debian`) ![GitHub file size in bytes](https://img.shields.io/github/size/simonquasar/BatBar/py%2FBatBar?link=https%3A%2F%2Fgithub.com%2Fsimonquasar%2FBatBar%2Freleases%2Flatest)
+1. Download the latest release (`BatBar.Debian`) [![GitHub file size in bytes](https://img.shields.io/github/size/simonquasar/BatBar/py%2FBatBar)](https://github.com/simonquasar/BatBar/releases/latest)
 2. Make the file executable:
    `chmod +x BatBar`
 3. Run:
@@ -98,7 +102,7 @@ from the [GitHub Releases](https://github.com/simonquasar/batbar/releases) page
 
 #### 🔹 Python Script
 - requires: Python 3.7+ and the `psutil` package
-1. Download `BatBar.py` ![GitHub file size in bytes](https://img.shields.io/github/size/simonquasar/BatBar/py%2FBatBar.py?label=.py&color=84A454&link=https%3A%2F%2Fgithub.com%2Fsimonquasar%2FBatBar%2Freleases%2Flatest)
+1. Download `BatBar.py` [![GitHub file size in bytes](https://img.shields.io/github/size/simonquasar/BatBar/py%2FBatBar.py?label=.py&color=84A454)](https://github.com/simonquasar/BatBar/releases/latest)
 2. Install the required dependency:
    `pip install psutil`
 3. Run with:

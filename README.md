@@ -28,11 +28,12 @@ It consists of **a single-pixel line** that shows your battery level.
 
 **<p align="center">Screenshot-safe: designed to hide in plain sight.</p>**
 
+
+![BatBar](https://raw.githubusercontent.com/simonquasar/BatBar/main/BatBar.jpg)
+
 **BatBar** sits on the extreme edge of your screen - typically outside the active capture area used by most print screens.
 
 _You can still increase its width, while 1px remains the sweet spot for invisibility!_
-
-![BatBar](https://raw.githubusercontent.com/simonquasar/BatBar/main/BatBar.jpg)
 
 **<p align="center">Ideal for streamers, designers and screen recorders!</p>**
 
@@ -44,8 +45,8 @@ _You can still increase its width, while 1px remains the sweet spot for invisibi
 
 The bar automatically appears on the right edge of your primary screen.
 
-- ↔️ **Adjust width**: `mouse wheel` `up/down` over the bar (1-10 px)
-- ❌ **Close the bar**: `SHIFT + right-click` on the bar
+- ↔️ **Adjust width** with `mouse wheel` `up/down` over the bar (1-10 px)
+- ❌ **Close the bar** by pressing `SHIFT + right-click` on the bar
 
 That's it!
 
@@ -74,18 +75,18 @@ from the [GitHub Releases](https://github.com/simonquasar/batbar/releases) page
 ### Windows 10/11
 
 #### 🔹 Option 1: Standalone Executable (recommended) ✅
-1. Download the latest release (`BatBar.exe`) ![GitHub file size in bytes](https://img.shields.io/github/size/simonquasar/BatBar/ps%2FBatBar.exe?label=.exe&color=318ce7&link=https%3A%2F%2Fraw.githubusercontent.com%2Fsimonquasar%2FBatBar%2Fblob%2Fmain%2Fps%2FBatBar.exe)
+1. Download the latest release (`BatBar.Windows.x86_64.exe`) ![GitHub file size in bytes](https://img.shields.io/github/size/simonquasar/BatBar/ps%2FBatBar.exe?label=.exe&color=318ce7&link=https%3A%2F%2Fgithub.com%2Fsimonquasar%2FBatBar%2Freleases%2Flatest)
 2. Run - that's it.
 
 #### 🔹 Option 2: PowerShell Script
 - requires: PowerShell 5.1+
-1. Download `BatBar.ps1` ![GitHub file size in bytes](https://img.shields.io/github/size/simonquasar/BatBar/ps%2FBatBar.ps1?label=.ps1&color=1292EE&link=https%3A%2F%2Fraw.githubusercontent.com%2Fsimonquasar%2FBatBar%2Frefs%2Fheads%2Fmain%2Fps%2FBatBar.ps1)
+1. Download `BatBar.ps1` ![GitHub file size in bytes](https://img.shields.io/github/size/simonquasar/BatBar/ps%2FBatBar.ps1?label=.ps1&color=1292EE&link=https%3A%2F%2Fgithub.com%2Fsimonquasar%2FBatBar%2Freleases%2Flatest)
 2. Right-click the file and select “_Run with PowerShell_”
 
 ### Linux (Debian/Ubuntu)
 
 #### Standalone Executable (recommended) ✅
-1. Download the latest release (`BatBar.Debian`) ![GitHub file size in bytes](https://img.shields.io/github/size/simonquasar/BatBar/py%2FBatBar?label=Unix&color=E95420&link=https%3A%2F%2Fgithub.com%2Fsimonquasar%2Fbatbar%2Freleases)
+1. Download the latest release (`BatBar.Debian`) ![GitHub file size in bytes](https://img.shields.io/github/size/simonquasar/BatBar/py%2FBatBar?link=https%3A%2F%2Fgithub.com%2Fsimonquasar%2FBatBar%2Freleases%2Flatest)
 2. Make the file executable:
    `chmod +x BatBar`
 3. Run:
@@ -95,7 +96,7 @@ from the [GitHub Releases](https://github.com/simonquasar/batbar/releases) page
 
 #### 🔹 Python Script
 - requires: Python 3.7+ and the `psutil` package
-1. Download `BatBar.py` ![GitHub file size in bytes](https://img.shields.io/github/size/simonquasar/BatBar/py%2FBatBar.py?label=.py&color=84A454&&link=https%3A%2F%2Fraw.githubusercontent.com%2Fsimonquasar%2FBatBar%2Frefs%2Fheads%2Fmain%2Fpy%2FBatBar.py)
+1. Download `BatBar.py` ![GitHub file size in bytes](https://img.shields.io/github/size/simonquasar/BatBar/py%2FBatBar.py?label=.py&color=84A454&link=https%3A%2F%2Fgithub.com%2Fsimonquasar%2FBatBar%2Freleases%2Flatest)
 2. Install the required dependency:
    `pip install psutil`
 3. Run with:

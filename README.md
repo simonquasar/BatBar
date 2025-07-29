@@ -74,25 +74,25 @@ The solution for who wants **instant battery awareness without distractions**.
 
 ## ⏬ Download
 
-[![BatBar](https://img.shields.io/badge/BatBar-Download%20here!-ff2850)](https://github.com/simonquasar/BatBar/releases/latest)
+[![BatBar](https://img.shields.io/badge/BatBar-Download%20here!-ff2850?style=flat-square)](https://github.com/simonquasar/BatBar/releases/latest)
 
-from the [GitHub Releases](https://github.com/simonquasar/batbar/releases) page
+from the [GitHub Releases](https://github.com/simonquasar/batbar/releases?style=flat-square) page
 
 ### Windows 10/11
 
 #### 🔹 Option 1: Standalone Executable (recommended) ✅
-1. Download the latest release (`BatBar.Windows.x86_64.exe`) [![GitHub file size in bytes](https://img.shields.io/github/size/simonquasar/BatBar/ps%2FBatBar.exe?label=.exe&color=318ce7)](https://github.com/simonquasar/BatBar/releases/latest)
+1. Download the latest release (`BatBar.Windows.x86_64.exe`) [![GitHub file size in bytes](https://img.shields.io/github/size/simonquasar/BatBar/ps%2FBatBar.exe?label=.exe&color=318ce7&style=plastic)](https://github.com/simonquasar/BatBar/releases/latest)
 2. Run - that's it.
 
 #### 🔹 Option 2: PowerShell Script
 - requires: PowerShell 5.1+
-1. Download `BatBar.ps1` [![GitHub file size in bytes](https://img.shields.io/github/size/simonquasar/BatBar/ps%2FBatBar.ps1?label=.ps1&color=1292EE)](https://github.com/simonquasar/BatBar/releases/latest)
+1. Download `BatBar.ps1` [![GitHub file size in bytes](https://img.shields.io/github/size/simonquasar/BatBar/ps%2FBatBar.ps1?label=.ps1&color=1292EE&style=plastic)](https://github.com/simonquasar/BatBar/releases/latest)
 2. Right-click the file and select “_Run with PowerShell_”
 
 ### Linux (Debian/Ubuntu)
 
 #### Standalone Executable (recommended) ✅
-1. Download the latest release (`BatBar.Debian`) [![GitHub file size in bytes](https://img.shields.io/github/size/simonquasar/BatBar/py%2FBatBar)](https://github.com/simonquasar/BatBar/releases/latest)
+1. Download the latest release (`BatBar.Debian`) [![GitHub file size in bytes](https://img.shields.io/github/size/simonquasar/BatBar/py%2FBatBar?label=pkg&style=plastic)](https://github.com/simonquasar/BatBar/releases/latest)
 2. Make the file executable:
    `chmod +x BatBar`
 3. Run:
@@ -102,7 +102,7 @@ from the [GitHub Releases](https://github.com/simonquasar/batbar/releases) page
 
 #### 🔹 Python Script
 - requires: Python 3.7+ and the `psutil` package
-1. Download `BatBar.py` [![GitHub file size in bytes](https://img.shields.io/github/size/simonquasar/BatBar/py%2FBatBar.py?label=.py&color=84A454)](https://github.com/simonquasar/BatBar/releases/latest)
+1. Download `BatBar.py` [![GitHub file size in bytes](https://img.shields.io/github/size/simonquasar/BatBar/py%2FBatBar.py?label=.py&color=84A454&style=plastic)](https://github.com/simonquasar/BatBar/releases/latest)
 2. Install the required dependency:
    `pip install psutil`
 3. Run with:

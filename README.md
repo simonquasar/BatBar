@@ -92,7 +92,7 @@ from the [GitHub Releases](https://github.com/simonquasar/batbar/releases?style=
 ### Linux (Debian/Ubuntu)
 
 #### Standalone Executable (recommended) ✅
-1. Download the latest release (`BatBar.Debian`) [![GitHub file size in bytes](https://img.shields.io/github/size/simonquasar/BatBar/py%2FBatBar?label=pkg&style=plastic)](https://github.com/simonquasar/BatBar/releases/latest)
+1. Download the latest release (`BatBar.Debian`) [![GitHub file size in bytes](https://img.shields.io/github/size/simonquasar/BatBar/py%2FBatBar?label=pkg&color=E95420&style=plastic)](https://github.com/simonquasar/BatBar/releases/latest)
 2. Make the file executable:
    `chmod +x BatBar`
 3. Run:
@@ -102,7 +102,7 @@ from the [GitHub Releases](https://github.com/simonquasar/batbar/releases?style=
 
 #### 🔹 Python Script
 - requires: Python 3.7+ and the `psutil` package
-1. Download `BatBar.py` [![GitHub file size in bytes](https://img.shields.io/github/size/simonquasar/BatBar/py%2FBatBar.py?label=.py&color=E95420&style=plastic)](https://github.com/simonquasar/BatBar/releases/latest)
+1. Download `BatBar.py` [![GitHub file size in bytes](https://img.shields.io/github/size/simonquasar/BatBar/py%2FBatBar.py?label=.py&color=84A454&style=plastic)](https://github.com/simonquasar/BatBar/releases/latest)
 2. Install the required dependency:
    `pip install psutil`
 3. Run with:

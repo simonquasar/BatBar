@@ -2,14 +2,14 @@
 
 ---
 
-**BatBar** is the 1-pixel wide battery bar. An ultra-minimalist status indicator for Windows, Linux and macOS.
+**BatBar** is the one pixel wide battery bar. An ultra-minimalist status indicator for Windows, Linux and macOS.
 
 It consists of **a single-pixel line** that shows your battery level.
 
 [![BatBar](https://img.shields.io/badge/BatBar-Download%20here!-ff2850?style=flat-square)](https://github.com/simonquasar/BatBar/releases/latest)
 
 [![GitHub repo](https://img.shields.io/badge/GitHub-BatBar-white?logo=github&color=ffcc00&style=flat-square)](https://github.com/simonquasar/BatBar)
-[![GitHub Release](https://img.shields.io/github/v/release/simonquasar/BatBar?display_name=release&color=green&style=flat-square)](https://github.com/simonquasar/BatBar/releases/latest)
+[![GitHub Release](https://img.shields.io/github/v/release/simonquasar/BatBar?display_name=release&color=ffcc00&style=flat-square)](https://github.com/simonquasar/BatBar/releases/latest)
 
 ![Static Badge](https://img.shields.io/badge/11%20%2F%2010-%20?logo=quarto&logoColor=lightblue&label=WINDOWS&color=318ce7&style=flat-square)
 ![Static Badge](https://img.shields.io/badge/Ubuntu%2FDebian%2FArch-%20?logo=linux&logoColor=E95420&label=LINUX&color=E95420&style=flat-square)
@@ -25,7 +25,7 @@ It consists of **a single-pixel line** that shows your battery level.
 
 **<p align="center">Always visible. Never distracting.</p>**
 - **Instant visual feedback**: the height of the bar reflects the battery level
-- **Intuitive color coding**: simple red-orange-yellow-green + blue for charging
+- **Intuitive color coding**: simple red, orange, yellow and green + blue for charging
 - **Always on top**: persistent visibility, zero distraction
 - **Adjustable witdh**: scroll to resize
 
@@ -51,7 +51,7 @@ _You can still increase its width, while 1px remains the sweet spot for invisibi
 The bar automatically appears on the right edge of your primary screen.
 
 - ↔️ **Adjust width** (1-10 px) with `mouse wheel up/down` 
-- ❌ **Close the bar** with `SHIFT + right-click` on it
+- ❌ **Close** with `SHIFT + right-click` on it
 
 That's all!
 

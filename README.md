@@ -6,7 +6,7 @@
 
 It consists of **a single-pixel line** that shows your battery level.
 
-[![BatBar](https://img.shields.io/badge/BatBar-Download%20here!-ff2850?style=flat-square)](https://github.com/simonquasar/BatBar/releases/latest)
+[![Download BatBar](https://img.shields.io/badge/BatBar-Download%20here!-ff2850?style=flat-square)](https://github.com/simonquasar/BatBar/releases/latest)
 
 [![GitHub repo](https://img.shields.io/badge/GitHub-BatBar-white?logo=github&color=ffcc00&style=flat-square)](https://github.com/simonquasar/BatBar)
 [![GitHub Release](https://img.shields.io/github/v/release/simonquasar/BatBar?display_name=release&color=ffcc00&style=flat-square)](https://github.com/simonquasar/BatBar/releases/latest)
@@ -80,7 +80,7 @@ The solution for who wants **instant battery awareness without distractions** an
 
 **<p align="center">BatBar** is made for creators, coders, productivity purists and people who care about **signal over noise**.</p>
 
-[![BatBar](https://img.shields.io/badge/BatBar-Download%20here!-ff2850?style=flat-square)](https://github.com/simonquasar/BatBar/releases/latest)
+[![Download BatBar](https://img.shields.io/badge/BatBar-Download%20here!-ff2850?style=flat-square)](https://github.com/simonquasar/BatBar/releases/latest)
 
 from the [GitHub Releases](https://github.com/simonquasar/BatBar/releases/) page
 

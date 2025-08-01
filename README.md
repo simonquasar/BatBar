@@ -27,7 +27,7 @@ It consists of **a single-pixel line** that shows your battery level.
 - **Instant visual feedback**: the height of the bar reflects the battery level
 - **Intuitive color coding**: simple red, orange, yellow and green + blue for charging
 - **Always on top**: persistent visibility, zero distraction
-- **Adjustable witdh**: scroll to resize
+- **Adjustable width**: scroll to resize
 
 
 **<p align="center">Screenshot-safe: designed to hide in plain sight.</p>**
